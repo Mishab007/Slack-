@@ -1,0 +1,436 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: red;
+}
+
+.head-bar {
+    height: 50px;
+    width: 100%;
+    background: #4A154B;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+}
+
+.icons .icon1 {
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   color: aliceblue;
+   left: 10px;
+   top: 12px;
+} 
+
+.icons .icon2 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+    left: 375px;
+    top: 12px;
+ } 
+
+ .icons .icon3 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+    left: 405px;
+    top: 12px;
+ } 
+ .icons .icon4 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    color: aliceblue;
+    left: 435px;
+    top: 12px;
+ } 
+
+ .icon5 {
+    height: 25px;
+    width: 25px;
+    color: rgb(233, 230, 230);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1520px;
+    top: 13px;
+ }
+
+ .icon6 {
+    height: 25px;
+    width: 25px;
+    color: rgb(255, 255, 255);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1620px;
+    top: 13px;
+ }
+
+ .icon7 {
+    height: 25px;
+    width: 25px;
+    color: rgb(255, 255, 255);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1650px;
+    top: 13px;
+ }
+
+ .icon8 {
+    height: 25px;
+    width: 25px;
+    color: rgb(255, 255, 255);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1690px;
+    top: 13px;
+ }
+
+ h6 {
+    height: 30px;
+    width: 30px;
+    color: rgb(233, 230, 230);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1560px;
+    top: 5px;
+    font-size: 25px;
+    background: #0d5c37;
+    padding: 5px 0px 3px 8px;
+    border-radius: 5px;
+ }
+
+.icon9 {
+    height: 20px;
+    width: 20px;
+    color: rgb(0, 0, 0);
+    left: 400px;
+    z-index: 1;
+    position: absolute;
+    left: 1115px;
+    top: 15px;
+ } 
+
+ .icon10 {
+    height: 20px;
+    width: 20px;
+    color: rgb(0, 0, 0);
+    top: 15px;
+    z-index: 1;
+    position: absolute;
+    left: 1140px;
+ } 
+
+.input {
+    height: 30px;
+    width: 700px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    left: 450px;
+    border-radius: 5px;
+    
+ }
+
+.input-feild {
+    height: 20px;
+    width: 600px;
+    background:  rgb(255, 255, 255);
+    position: absolute;
+    left: 480px;
+    top: 15px;
+    border: 0px;
+    color: aliceblue;
+ }
+  
+.header {
+    display: flex;
+}
+
+.head-bar2 {
+    height: 50px;
+    width: 20%;
+    background: #5c135e;
+}
+
+.header-text {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    color: aliceblue;
+}
+
+.icon11 {
+    height: 20px;
+    width: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 65px;
+    margin-left: 125px;
+}
+
+.icon12 {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.head-bar3 {
+    height: 50px;
+    width: 80%;
+    background: #6f2c70;
+    display: flex;
+    align-items: center;
+}
+
+.mini-header {
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.cross-table{
+    display: flex;
+}
+
+.table1 {
+    height: 800px;
+    width: 20%;
+    background: hsl(299, 56%, 19%);
+}
+
+.side-bar {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+hr {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+h2 {
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+.table2 {
+    height: 800px;
+    width: 80%;
+    background: rgb(255, 255, 255);
+}
+
+.icon13 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.icon14 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+
+.icon15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+}
+
+.icon16 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 74px;
+    left: 0px;
+}
+
+.icon17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 97px;
+    left: 0px;
+}
+
+.icon18 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+} 
+
+.icon19 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 143px;
+    left: 0px; 
+}
+
+.icon20 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 169px;
+    left: 0px; 
+}
+
+.side-bar2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.icon21 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0px; 
+}
+
+.icon22 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 27px;
+    left: 0px; 
+}
+
+.icon23 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 49px;
+    left: 0px; 
+}
+
+.icon24 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 72px;
+    left: 0px; 
+}
+
+.icon25 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 96px;
+    left: 0px; 
+}
+
+.icon26 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 121px;
+    left: 0px;
+    border-radius: 5px;
+    background: rgb(119, 114, 114);
+}
+
+.direct {
+    margin-top: 15px;
+}
+
+.icon27 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 154px;
+    left: 0px; 
+}
+
+.name {
+    font-size: 7px;
+    color: rgb(226, 223, 223);
+    margin-left: 0px; 
+}
+
+.h1-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+.icon28 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 439px;
+    left: 0px;
+    border-radius: 5px;
+    background: rgb(119, 114, 114);
+}
+
+.icon29 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 487px;
+    left: 0px;
+    border-radius: 5px;
+    background: rgb(119, 114, 114);
+}
+
+.icon30 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 464px;
+    left: 0px; 
+}
+
+.table2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.planet {
+ height: 100px;
+ width: 100px;
+ position: absolute;
+ top: 260px;
+ left: 650px;
+}
+
+.threads {
+    background: #810a81; 
+    border-radius: 5px;  
+    padding: 2px; 
+    background-size: 30px;
+}
